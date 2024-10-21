@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/img_cap_splash"
+        android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
@@ -22,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_40"
-        android:layout_marginTop="@dimen/margin_30"
+        android:layout_marginTop="@dimen/margin_60"
         android:text="@string/food_for_everyone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,6 +33,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/img_splash"
         android:scaleType="fitXY"
+        android:layout_marginTop="@dimen/margin_20"
         app:layout_constraintBottom_toTopOf="@id/btnGetStarted"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +48,7 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="@dimen/margin_40"
         android:layout_marginEnd="@dimen/margin_40"
-        android:layout_marginBottom="@dimen/margin_40"
+        android:layout_marginBottom="@dimen/margin_20"
         android:background="@drawable/btn_design_splash"
         android:text="@string/get_started"
         app:layout_constraintBottom_toBottomOf="parent"
